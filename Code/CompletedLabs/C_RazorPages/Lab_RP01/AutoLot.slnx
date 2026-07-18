@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/Solution Folder/">
+    <File Path="createprojects_RP.cmd" />
+    <File Path="createprojects_RP.ps1" />
+    <File Path="createprojects_RP.sh" />
+    <File Path="RP_Lab1.txt" />
+  </Folder>
+  <Project Path="../../B_EFCore/Lab_EF07/AutoLot.Dal/AutoLot.Dal.csproj" />
+  <Project Path="../../B_EFCore/Lab_EF07/AutoLot.Models/AutoLot.Models.csproj" />
+  <Project Path="AutoLot.Services/AutoLot.Services.csproj" />
+  <Project Path="AutoLot.Web/AutoLot.Web.csproj" />
+</Solution>
