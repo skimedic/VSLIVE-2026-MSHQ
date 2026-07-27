@@ -55,7 +55,7 @@ Overridden CreateDbContext method:
     public ApplicationDbContext CreateDbContext(string[] args)
     {
         var optionsBuilder = new DbContextOptionsBuilder<ApplicationDbContext>();
-        var connectionString = @"server=(localdb)\\mssqllocaldb;Database=AutoLot_Hol;Trusted_Connection=True;";
+        var connectionString = @"server=(localdb)\mssqllocaldb;Database=AutoLot_Hol;Trusted_Connection=True;";
         optionsBuilder.UseSqlServer(connectionString);
         //This is for teaching purposes only, you should not use this in production code.
         Console.WriteLine(connectionString);
